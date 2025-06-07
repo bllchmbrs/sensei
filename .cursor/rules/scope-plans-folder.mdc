@@ -1,0 +1,8 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+# Plans Folder Rule
+
+When writing a plan into the [plans](mdc:../plans) folder, always write the simplest plan that is scoped to that specific problem. Do not worry about tests or any tasks beyond the tasks described by the user or context.
