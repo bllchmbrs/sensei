@@ -1,16 +1,14 @@
 ---
-import Layout from '../layouts/Layout.astro';
-import data from "../../public/data.json";
-import HeaderAbout from "../components/about/header"
-import FeaturesAbout from "../components/about/features"
-import TeamAbout from "../components/about/team"
-import TestimonialAbout from "../components/about/testimonials"
-import FooterAbout from "../components/about/footer"
+import FeaturesAbout from "../components/about/features";
+import FooterAbout from "../components/about/footer";
+import HeaderAbout from "../components/about/header";
+import TeamAbout from "../components/about/team";
+import TestimonialAbout from "../components/about/testimonials";
+import Layout from "../layouts/Layout.astro";
 ---
 
-
-<Layout title="About Us Page">
-	<main>
+<Layout title="About Adobe Sensei Studio">
+  <main>
     <HeaderAbout client:only="react" />
     <FeaturesAbout client:only="react" />
     <TestimonialAbout client:only="react" />

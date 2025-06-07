@@ -1,9 +1,9 @@
 import {
-  Card,
-  CardHeader,
-  CardBody,
-  Typography,
-  Button,
+    Button,
+    Card,
+    CardBody,
+    CardHeader,
+    Typography,
 } from "@material-tailwind/react";
 import ThemeProvider from "../theme-provider";
 
@@ -59,21 +59,21 @@ function BlogPostCard({
 const posts = [
   {
     img: "aboutus.jpg",
-    title: "About Us Page",
-    desc: "Designed to introduce the website's purpose and encourage the user to take an action.",
-    url: "https://demos.creative-tim.com/astro-launch-ui/about",
+    title: "About Adobe Sensei Studio",
+    desc: "Learn about our mission to bring AI to every creative workflow with Adobe products.",
+    url: "#",
   },
   {
     img: "signin.jpg",
     title: "Sign In Page",
-    desc: "It's designed to provide the user with all the necessary information for a secure login.",
-    url: "https://demos.creative-tim.com/astro-launch-ui/login",
+    desc: "Securely access Adobe Sensei Studio and connect your Creative Cloud apps.",
+    url: "#",
   },
   {
     img: "404.jpg",
     title: "404 Error Page",
-    desc: "If you're looking for essential information to make a decision, our website has it all - just not on this page.",
-    url: "https://demos.creative-tim.com/astro-launch-ui/404",
+    desc: "Explore the creative possibilities with Adobe AI—even when you take a wrong turn!",
+    url: "#",
   },
 ];
 
@@ -87,10 +87,10 @@ export function BlogSectionThree() {
               Get inspired!
             </Typography>
             <Typography variant="h2" color="blue-gray" className="mb-4">
-              Example Pages
+              Example Pages for Creative Teams
             </Typography>
             <Typography color="blue-gray">
-              You can start using our fully coded Ecommerce page examples if you want to get inspired or show something to your client.
+              Start with our fully coded Adobe Sensei Studio page examples to inspire your next creative project or client presentation.
             </Typography>
           </div>
 

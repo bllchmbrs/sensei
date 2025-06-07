@@ -1,13 +1,12 @@
-import React from "react";
 import {
-  Button,
-  Typography,
-} from "@material-tailwind/react";
-import ThemeProvider from "../theme-provider";
-import Navbar from "../navbar";
-import {
-  ArrowSmallRightIcon,
+    ArrowSmallRightIcon,
 } from "@heroicons/react/24/outline";
+import {
+    Button,
+    Typography,
+} from "@material-tailwind/react";
+import Navbar from "../navbar";
+import ThemeProvider from "../theme-provider";
 
 export function HeroSectionTwo() {
  
@@ -29,7 +28,7 @@ export function HeroSectionTwo() {
                 variant="small"
                 className="!flex !items-center !font-semibold"
               >
-                Personalized coaching in-app
+                AI-powered creative coaching
                 <ArrowSmallRightIcon
                   className="ml-1.5 h-4 w-4"
                   strokeWidth={3}
@@ -41,12 +40,10 @@ export function HeroSectionTwo() {
               color="blue-gray"
               className="mb-8 leading-tight lg:text-6xl"
             >
-              Our company mission is to lead the design apps
+              Our mission: AI for every creative
             </Typography>
             <Typography variant="lead" className="lg:pr-20 text-blue-gray-800">
-              It becomes harder for us to give others a hand. We get our heart
-              broken by people we love, even that we give them all we have. Then
-              we lose family over time.
+              Adobe Sensei Studio empowers creators and teams with generative AI, smart automation, and seamless integration across Adobe Creative Cloud. Unlock new creative possibilities with Adobe's trusted AI platform.
             </Typography>
             <div className="mt-12 flex flex-wrap justify-center gap-3 lg:justify-start">
               <Button color="dark" className="flex items-center">
@@ -68,7 +65,7 @@ export function HeroSectionTwo() {
             </div>
           </div>
           <div className="hidden lg:flex">
-            <img src="https://images.unsplash.com/photo-1650615567023-0721bceeecb6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=627&q=80" alt="iphone" className="max-w-md rounded-3xl ml-auto" />
+            <img src="https://images.unsplash.com/photo-1650615567023-0721bceeecb6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=627&q=80" alt="Adobe Sensei Studio creative team" className="max-w-md rounded-3xl ml-auto" />
           </div>
         </div>
       </header>

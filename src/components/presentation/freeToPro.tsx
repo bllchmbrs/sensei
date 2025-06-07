@@ -1,8 +1,7 @@
-import React from "react";
 import {
-  Button,
-  Card,
-  Typography
+    Button,
+    Card,
+    Typography
 } from "@material-tailwind/react";
 import ThemeProvider from "../theme-provider";
 
@@ -56,7 +55,7 @@ export function FigmaPresentation() {
               color="blue"
               className="font-bold text-lg mb-5"
             >
-              Fully Coded Components based on Astro
+              Fully Coded Components powered by Adobe AI
             </Typography>
 
             <Typography
@@ -64,10 +63,10 @@ export function FigmaPresentation() {
               color="blue-gray"
               className="mb-8 leading-tight"
             >
-              Astro LaunchUI Pro
+              Adobe Sensei Studio Pro
             </Typography>
             <Typography color="blue-gray" className="mb-5 lg:w-[30rem]">
-              All the sections and pages made with these elements will be fully responsive and will look beautiful on all types of screens, including phones, tables, or desktops.
+              All sections and pages are built with Adobe's AI-powered components, ensuring beautiful, responsive design and seamless integration with Creative Cloud apps.
             </Typography>
           </div>
           <div className="lg:flex relative">
@@ -80,12 +79,12 @@ export function FigmaPresentation() {
                 </div>
                 <a href="https://www.creative-tim.com/product/astro-launch-ui-pro" target="_blank">
                   <Button color="dark" className="flex items-center">
-                     Astro Pro
+                     Sensei Studio Pro
                   </Button>
                 </a>
               </div>
             </div>
-            <img src="components.png" alt="iphone" className="lg:w-1/2 rounded-3xl hidden md:flex ml-auto lg:absolute -right-32 -top-24" />
+            <img src="components.png" alt="Adobe AI components" className="lg:w-1/2 rounded-3xl hidden md:flex ml-auto lg:absolute -right-32 -top-24" />
           </div>
         </div>
       </div>

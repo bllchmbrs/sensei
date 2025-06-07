@@ -1,12 +1,12 @@
 import { Typography } from "@material-tailwind/react";
 
 const logos = [
-  "microsoft",
-  "cisco",
-  "ibm",
-  "amazons",
-  "salesforce",
-  "vodafone",
+  "photoshop",
+  "illustrator",
+  "premiere",
+  "acrobat",
+  "firefly",
+  "express",
 ];
 
 export function LogoSectionOne() {
@@ -17,7 +17,7 @@ export function LogoSectionOne() {
           color="blue-gray"
           className="text-xl font-extrabold mb-8"
         >
-          Trusted by the best companies
+          Powered by Adobe Creative Cloud
         </Typography>
         <div className="flex flex-wrap items-center justify-center gap-8">
           {logos.map((logo, key) => (

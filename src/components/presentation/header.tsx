@@ -1,13 +1,9 @@
-import React from "react";
 import {
-  Button,
-  Typography,
+    Button,
+    Typography,
 } from "@material-tailwind/react";
-import ThemeProvider from "../theme-provider";
 import Navbar from "../navbar";
-import {
-  ArrowSmallRightIcon,
-} from "@heroicons/react/24/outline";
+import ThemeProvider from "../theme-provider";
 
 export function HeroPresentation() {
  
@@ -29,7 +25,7 @@ export function HeroPresentation() {
                 variant="small"
                 className="flex items-center font-bold uppercase"
               >
-                Astro Starter Template
+                Adobe Sensei Studio
               </Typography>
             </div>
             <Typography
@@ -37,10 +33,10 @@ export function HeroPresentation() {
               color="blue-gray"
               className="mb-8 lg:mr-32 leading-tight font-black"
             >
-              The perfect foundation for your <span className="text-blue">Astro Project</span>
+              The AI-powered platform for your <span className="text-blue">Adobe Creative Projects</span>
             </Typography>
             <Typography variant="lead" color="blue-gray" className="lg:pr-32">
-              AstroLaunch UI is a free template designed to be both lightweight and feature-rich. It comes packed with everything you need to get your Online Store ready in no time.
+              Adobe Sensei Studio brings generative AI and automation to your creative workflow. Seamlessly integrate with Photoshop, Illustrator, Firefly, and more to create, edit, and collaborate faster than ever.
             </Typography>
             <div className="mt-12 flex flex-wrap justify-center gap-3 lg:justify-start">
               <a href="#pricing">
@@ -52,7 +48,7 @@ export function HeroPresentation() {
           </div>
         </div>
         <div className="hidden lg:flex">
-          <img src="header.png" alt="components" className="absolute -top-10 right-0 w-1/2" />
+          <img src="header.png" alt="Adobe Sensei Studio AI components" className="absolute -top-10 right-0 w-1/2" />
         </div>
       </header>
     </ThemeProvider>

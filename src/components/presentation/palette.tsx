@@ -1,6 +1,5 @@
-import React from "react";
 import {
-  Typography,
+    Typography,
 } from "@material-tailwind/react";
 import ThemeProvider from "../theme-provider";
 
@@ -11,26 +10,28 @@ export function PalettePresentation() {
       <div className="h-full w-screen place-items-center bg-white px-8 py-8">
         <div className="container mx-auto grid items-center relative lg:grid-cols-2">
           <div className="hidden lg:flex">
-            <img src="palette.png" alt="iphone" className="max-w-xl rounded-3xl mx-auto" />
+            <img src="palette.png" alt="Adobe AI color palette" className="max-w-xl rounded-3xl mx-auto" />
           </div>
           
           <div className="text-center lg:text-left">
             <Typography
+              placeholder=""
               color="blue"
               className="flex items-center justify-center lg:justify-start !font-bold text-lg mb-5"
             >
-              Attention to beautiful design
+              Powered by Adobe Design Tools
             </Typography>
 
             <Typography
+              placeholder=""
               variant="h2"
               color="blue-gray"
               className="mb-8 leading-tight"
             >
-              Awesome color palette, variables & elements foundation.
+              AI-driven color palettes and design foundations
             </Typography>
-            <Typography color="gray" className="lg:pr-20">
-              Customize your colors, sizes, spacing or typography in minutes so they can fit perfectly for your brand. Spend time creating dApps logic and UX, our tools take care of the rest.
+            <Typography placeholder="" color="gray" className="lg:pr-20">
+              Instantly generate and customize color palettes, typography, and layouts with Adobe Firefly and Photoshop AI. Focus on creativity—let Adobe Sensei Studio handle the rest.
             </Typography>
             
           </div>

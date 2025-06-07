@@ -1,4 +1,4 @@
-# Welcome to [Astro Launch UI](https://www.creative-tim.com/astro/launch-ui/)
+# Welcome to Adobe Sensei Studio
 
 ![version](https://img.shields.io/badge/version-1.0.1-blue.svg) [![GitHub issues open](https://img.shields.io/github/issues/creativetimofficial/astro-launch-ui.svg?maxAge=2592000)](https://github.com/creativetimofficial/astro-launch-ui/issues?q=is%3Aopen+is%3Aissue) [![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/creativetimofficial/astro-launch-ui.svg?maxAge=2592000)](https://github.com/creativetimofficial/astro-launch-ui/issues?q=is%3Aissue+is%3Aclosed)
 
@@ -6,23 +6,25 @@
 
 ## Description
 
-Introducing **Astro LaunchUI**, the ultimate starter template for your startup web project. Built on Astro's next-gen island architecture, Astro LaunchUI offers a sleek and modern design with a wide range of components and features to help you create a stunning online store.
+Introducing **Adobe Sensei Studio**, the next-generation AI-powered platform for creative professionals and teams. Built with Adobe's advanced AI technologies, Sensei Studio offers a sleek and modern design with a wide range of components and features to help you create, automate, and enhance your creative projects across Adobe products.
 
 **Main Features**
-Build your startup website quickly and efficiently with:
-- 70+ fully coded elements
-- 3 fully coded example pages
-- 30+ blocks
-- Responsive design
+Accelerate your creative workflow with:
+- 70+ fully coded elements for rapid prototyping
+- 3 fully coded example pages for Adobe product integrations
+- 30+ creative blocks
+- Responsive, Adobe-branded design
+- Seamless integration with Photoshop, Illustrator, Premiere Pro, Firefly, and more
+- Generative AI tools for images, video, and design
 
 **Example Pages**
-We created a set of pre-built pages to help you get inspired or show something to your clients. See them below:
-- [Landing Page](https://demos.creative-tim.com/astro-launch-ui/landing/): Designed to introduce the website's purpose and encourage the user to take an action.
-- [Product Page](https://demos.creative-tim.com/astro-launch-ui/product/): It's designed to give the user all the information they need to make a purchase decision
-- [Shopping Page](https://demos.creative-tim.com/astro-launch-ui/shopping-cart/): Includes a summary of the items in the cart and a form for billing and shipping information.
+Get inspired by our pre-built pages, designed for creative teams and agencies:
+- [Landing Page](#): Showcases Adobe Sensei Studio's AI-powered creative workflow.
+- [Product Integration Page](#): Demonstrates how to connect with Adobe Photoshop, Illustrator, and Firefly for generative AI tasks.
+- [Team Collaboration Page](#): Highlights real-time collaboration and smart automation for creative teams.
 - more+
 
-Astro LaunchUI has everything you need to create the startup website of your dreams.
+Adobe Sensei Studio has everything you need to supercharge your creative projects with Adobe AI.
 
 
 ## 🚀 Project Structure
@@ -48,6 +50,12 @@ Inside of your Astro project, you'll see the following folders and files:
 ├── public/
 ├── src
 │   ├── components/
+│   │   ├── input.css
+│   │   └── material-tailwind.css
+│   │   └── js
+│   │   └── astro-launch-ui.min.js
+│   │   └── scss
+│   │   └── loading-dot.css
 │   ├── env.d.ts
 │   ├── example.tsx
 │   ├── header.tsx
@@ -84,16 +92,16 @@ All commands are run from the root of the project, from a terminal:
 
 #### Social Media
 
-Twitter: <https://twitter.com/CreativeTim>
+Twitter: <https://twitter.com/adobe>
 
-Facebook: <https://www.facebook.com/CreativeTim>
+Facebook: <https://www.facebook.com/adobe>
 
-Dribbble: <https://dribbble.com/creativetim>
+Dribbble: <https://dribbble.com/adobe>
 
-TikTok: <https://tiktok.com/@creative.tim>
+TikTok: <https://tiktok.com/@adobe>
 
-Instagram: <https://instagram.com/creativetimofficial>
+Instagram: <https://instagram.com/adobe>
 
 ## 👀 Want to learn more?
 
-Feel free to check [our documentation](https://www.creative-tim.com/learning-lab/astro/overview/astro-launch-ui) or jump into our [Discord server](https://discord.com/invite/TGZqBvZB).
+Feel free to check [our documentation](https://www.adobe.com/sensei-studio/docs) or join our [Adobe Community](https://community.adobe.com/).

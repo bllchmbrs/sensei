@@ -1,6 +1,5 @@
-import React from "react";
 import {
-  Typography,
+    Typography,
 } from "@material-tailwind/react";
 import ThemeProvider from "../theme-provider";
 
@@ -15,7 +14,7 @@ export function DevPresentation() {
               color="blue"
               className="flex items-center font-bold text-lg mb-5"
             >
-              Attention to hiqh-quality code
+              Built on Adobe AI architecture
             </Typography>
 
             <Typography
@@ -23,13 +22,13 @@ export function DevPresentation() {
               color="blue-gray"
               className="mb-4 leading-tight"
             >
-              Develop consistenly using Astro architecture principles
+              Develop with Adobe's creative AI principles
             </Typography>
             <Typography color="blue-gray" className="lg:pr-32">
-              Using AstroLaunch UI you get everything you need to start creating your fully functional and responsive Ecommerce website in days, not months.
+              Adobe Sensei Studio provides everything you need to build, automate, and enhance creative workflows using Adobe's AI-powered APIs and SDKs.
             </Typography>
           </div>
-          <img src="consistenly.png" alt="components" className="mx-auto hidden md:flex" />
+          <img src="consistenly.png" alt="Adobe AI architecture components" className="mx-auto hidden md:flex" />
         </div>
       </div>
     </ThemeProvider>
