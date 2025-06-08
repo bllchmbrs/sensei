@@ -318,13 +318,12 @@ export default function ComplexNavbar() {
       }`}
     >
       <div className="relative mx-auto flex items-center text-blue-gray-900">
-        <Typography
-          as="a"
-          href="/"
-          className="mr-4 ml-2 cursor-pointer py-1.5 font-medium"
-        >
-          AstroLaunch UI
-        </Typography>
+        <img
+          src="https://www.pngall.com/wp-content/uploads/13/Adobe-Logo-PNG-Picture.png"
+          alt="Adobe Logo"
+          className="mr-4 ml-2 cursor-pointer py-1.5 h-8"
+          onClick={() => window.location.href = "/"}
+        />
         <div className="hidden lg:flex ml-auto">
           <NavList />
         </div>

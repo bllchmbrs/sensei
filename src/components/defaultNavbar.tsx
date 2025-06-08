@@ -210,14 +210,12 @@ export default function Example() {
     <ThemeProvider>
       <Navbar className="absolute mx-auto left-0 right-0 top-3 max-w-screen-xl px-4 py-2 z-10">
         <div className="flex items-center justify-between text-blue-gray-900">
-          <Typography
-            as="a"
-            href="/astro-launch-ui/"
-            variant="h6"
-            className="mr-4 cursor-pointer py-1.5 lg:ml-2"
-          >
-            AstroLaunch UI
-          </Typography>
+          <img
+            src="https://www.pngall.com/wp-content/uploads/13/Adobe-Logo-PNG-Picture.png"
+            alt="Adobe Logo"
+            className="mr-4 cursor-pointer py-1.5 lg:ml-2 h-8"
+            onClick={() => window.location.href = "/astro-launch-ui/"}
+          />
           <div className="hidden lg:block">
             <NavList />
           </div>
