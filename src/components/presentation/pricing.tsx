@@ -1,14 +1,19 @@
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 // import Script from "next/script";
 
 import {
-  Typography,
   Button,
   Card,
   CardBody,
   CardHeader,
+  Typography,
 } from "@material-tailwind/react";
 
+
+/**
+ * PaddleLoader is a component that loads the Paddle.js library and sets up the Paddle.Setup object.
+ * @returns A null component.
+ */
 function PaddleLoader() {
   useEffect(() => {
     // Check if we are in the browser environment
@@ -28,6 +33,10 @@ function PaddleLoader() {
   return null;
 }
 
+/**
+ * PricingSectionOne is a component that displays a pricing section with a title, a description, and a list of cards.
+ * @returns A pricing section with a title, a description, and a list of cards.
+ */
 export function PricingSectionOne() {
   return (
     <>
