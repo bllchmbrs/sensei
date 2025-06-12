@@ -1,12 +1,12 @@
 import { Typography } from "@material-tailwind/react";
 
 const logos = [
-  "photoshop",
-  "illustrator",
-  "premiere",
-  "acrobat",
-  "firefly",
-  "express",
+  
+  { name: "ibm", extension: "svg" },
+  { name: "cisco", extension: "svg" },
+  
+  { name: "amazons", extension: "svg" },
+  
 ];
 
 export function LogoSectionOne() {
@@ -23,8 +23,8 @@ export function LogoSectionOne() {
           {logos.map((logo, key) => (
             <img
               key={key}
-              src={`logos/logo-${logo}.svg`}
-              alt="logo"
+              src={`logos/logo-${logo.name}.${logo.extension}`}
+              alt={`${logo.name} logo`}
               className="w-40"
             />
           ))}

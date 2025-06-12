@@ -6,4 +6,6 @@ alwaysApply: false
 # Base Rules
 
 1. the github repository for any relevant changes is `bllchmbrs/sensei`
+2. When searching github, list issues and only include information about open issues. Do not refer to pull requests.
+3. When looking at issues, check the comments on those issues as well.
 

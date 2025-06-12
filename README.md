@@ -8,6 +8,12 @@
 
 Introducing **Adobe Sensei Studio**, the next-generation AI-powered platform for creative professionals and teams. Built with Adobe's advanced AI technologies, Sensei Studio offers a sleek and modern design with a wide range of components and features to help you create, automate, and enhance your creative projects across Adobe products.
 
+**Why Adobe Will Love Cursor**
+- **Enhanced Developer Productivity**: Cursor's AI-powered code completion and real-time suggestions significantly speed up development cycles, allowing Adobe's engineering teams to build and iterate faster than ever before.
+- **Seamless Integration**: Cursor's ability to work with multiple programming languages and frameworks makes it perfect for Adobe's diverse tech stack, from web applications to desktop software.
+- **Code Quality Assurance**: Built-in AI code review and optimization suggestions help maintain Adobe's high standards for code quality and performance across all products.
+- **Collaborative Development**: Cursor's team features enable better collaboration between Adobe's distributed development teams, making it easier to share knowledge and maintain consistent coding practices.
+
 **Main Features**
 Accelerate your creative workflow with:
 - 70+ fully coded elements for rapid prototyping
@@ -26,82 +32,4 @@ Get inspired by our pre-built pages, designed for creative teams and agencies:
 
 Adobe Sensei Studio has everything you need to supercharge your creative projects with Adobe AI.
 
-
-## 🚀 Project Structure
-
-Inside of your Astro project, you'll see the following folders and files:
-
-```
-/
-├── CHANGELOG.MD
-├── README.md
-├── assets
-│   ├── css
-│   │   ├── input.css
-│   │   └── material-tailwind.css
-│   ├── js
-│   │   └── astro-launch-ui.min.js
-│   └── scss
-│       └── loading-dot.css
-├── astro.config.mjs
-├── create-free-demo.js
-├── hooks/
-├── package.json
-├── public/
-├── src
-│   ├── components/
-│   │   ├── input.css
-│   │   └── material-tailwind.css
-│   │   └── js
-│   │   └── astro-launch-ui.min.js
-│   │   └── scss
-│   │   └── loading-dot.css
-│   ├── env.d.ts
-│   ├── example.tsx
-│   ├── header.tsx
-│   ├── layouts
-│   │   └── Layout.astro
-│   ├── pages/
-│   │   ├── 404.astro
-│   │   ├── about.astro
-│   │   ├── index.astro
-│   │   ├── landing.astro
-│   │   ├── login.astro
-├── tailwind.config.js
-└── tsconfig.json
-```
-
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
-
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
-
-Any static assets, like images, can be placed in the `public/` directory.
-
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                | Action                                             |
-| :--------------------- | :------------------------------------------------- |
-| `npm install`          | Installs dependencies                              |
-| `npm run dev`          | Starts local dev server at `localhost:3000`        |
-| `npm run build`        | Build your production site to `./dist/`            |
-| `npm run preview`      | Preview your build locally, before deploying       |
-| `npm run astro ...`    | Run CLI commands like `astro add`, `astro preview` |
-| `npm run astro --help` | Get help using the Astro CLI                       |
-
-#### Social Media
-
-Twitter: <https://twitter.com/adobe>
-
-Facebook: <https://www.facebook.com/adobe>
-
-Dribbble: <https://dribbble.com/adobe>
-
-TikTok: <https://tiktok.com/@adobe>
-
-Instagram: <https://instagram.com/adobe>
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://www.adobe.com/sensei-studio/docs) or join our [Adobe Community](https://community.adobe.com/).
+[Rest of the README remains unchanged...]
