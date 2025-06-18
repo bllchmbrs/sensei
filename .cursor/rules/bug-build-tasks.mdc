@@ -3,11 +3,6 @@ description:
 globs: 
 alwaysApply: false
 ---
----
-description: 
-globs: 
-alwaysApply: false
----
 # Rule: Generating a Task List from a Bug Description / Problem
 
 ## Goal
@@ -19,6 +14,7 @@ To guide an AI assistant in creating a detailed, step-by-step task list in Markd
 - **Format:** Markdown (`.md`)
 - **Location:** `/tasks/`
 - **Filename:** `tasks-[bug-file-name].md` (e.g., `tasks-bug-broken-logo.md`)
+
 
 ## Process
 
