@@ -1,9 +1,9 @@
 ---
 description: 
 globs: 
-alwaysApply: false
+alwaysApply: true
 ---
 # Base Rules
 
 1. the github repository for any relevant changes is `bllchmbrs/sensei`
-
+2. This project uses `pnpm`.

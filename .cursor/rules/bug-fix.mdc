@@ -1,0 +1,64 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+---
+description: 
+globs: 
+alwaysApply: false
+---
+# Rule: Generating a Task List from a Bug Description / Problem
+
+## Goal
+
+To guide an AI assistant in creating a detailed, step-by-step task list in Markdown format based on an issue description. The task list should guide a developer through implementation but should be simple and focus exclusively on that particular issue.
+
+## Output
+
+- **Format:** Markdown (`.md`)
+- **Location:** `/tasks/`
+- **Filename:** `tasks-[bug-file-name].md` (e.g., `tasks-bug-broken-logo.md`)
+
+## Process
+
+1.  **Receive Bug Report:** The user provides a description of the specific bug or issue.
+2.  **Analyze Bug Description:** The AI reads and analyzes the bug report to understand the problem scope, affected components, and expected behavior.
+3.  **Generate Complete Task List:** Based on the bug analysis, create the file and generate all tasks (parent tasks and sub-tasks) in a single pass. Use your judgement on how many high-level tasks to use. It's likely to be about 3-4 for a focused bug fix.
+4.  **Identify Relevant Files:** Based on the bug report and tasks, identify the specific files that are affected by the bug and need to be modified. List these under the `Relevant Files` section, including corresponding test files if applicable.
+5.  **Generate Final Output:** Combine the parent tasks, sub-tasks, relevant files, and notes into the final Markdown structure.
+6.  **Save Task List:** Save the generated document in the `/tasks/` directory with the filename `tasks-[bug-description].md`, where `[bug-description]` is a brief, descriptive name for the bug (e.g., if the bug is about broken logo display, the output is `tasks-broken-logo-display.md`).
+
+## Output Format
+
+The generated task list _must_ follow this structure:
+
+```markdown
+## Relevant Files
+
+- `path/to/potential/file1.ts` - Brief description of why this file is relevant (e.g., Contains the main component for this feature).
+- `path/to/file1.test.ts` - Unit tests for `file1.ts`.
+- `path/to/another/file.tsx` - Brief description (e.g., API route handler for data submission).
+- `path/to/another/file.test.tsx` - Unit tests for `another/file.tsx`.
+- `lib/utils/helpers.ts` - Brief description (e.g., Utility functions needed for calculations).
+- `lib/utils/helpers.test.ts` - Unit tests for `helpers.ts`.
+
+### Notes
+
+- Unit tests should typically be placed alongside the code files they are testing (e.g., `MyComponent.tsx` and `MyComponent.test.tsx` in the same directory).
+- Use `npx jest [optional/path/to/test/file]` to run tests. Running without a path executes all tests found by the Jest configuration.
+
+## Tasks
+
+- [ ] 1.0 Parent Task Title
+  - [ ] 1.1 [Sub-task description 1.1]
+  - [ ] 1.2 [Sub-task description 1.2]
+- [ ] 2.0 Parent Task Title
+  - [ ] 2.1 [Sub-task description 2.1]
+- [ ] 3.0 Parent Task Title (may not require sub-tasks if purely structural or configuration)
+```
+
+
+## Target Audience
+
+Assume the primary reader of the task list is a **junior developer** who will implement the feature.
