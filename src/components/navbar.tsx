@@ -1,29 +1,27 @@
-import React from "react";
 import {
-  Navbar,
-  Collapse,
-  Typography,
-  Button,
-  Menu,
-  MenuHandler,
-  MenuList,
-  MenuItem,
-  Avatar,
-  Card,
-  IconButton,
-} from "@material-tailwind/react";
-import {
-  CubeTransparentIcon,
-  UserCircleIcon,
-  CodeBracketSquareIcon,
-  Square3Stack3DIcon,
+  Bars2Icon,
   ChevronDownIcon,
+  CodeBracketSquareIcon,
   Cog6ToothIcon,
   InboxArrowDownIcon,
   LifebuoyIcon,
   PowerIcon,
-  Bars2Icon,
+  Square3Stack3DIcon,
+  UserCircleIcon
 } from "@heroicons/react/24/outline";
+import {
+  Avatar,
+  Button,
+  Collapse,
+  IconButton,
+  Menu,
+  MenuHandler,
+  MenuItem,
+  MenuList,
+  Navbar,
+  Typography
+} from "@material-tailwind/react";
+import React from "react";
  
 // profile menu component
 const profileMenuItems = [
@@ -318,13 +316,13 @@ export default function ComplexNavbar() {
       }`}
     >
       <div className="relative mx-auto flex items-center text-blue-gray-900">
-        <Typography
-          as="a"
-          href="/"
-          className="mr-4 ml-2 cursor-pointer py-1.5 font-medium"
-        >
-          AstroLaunch UI
-        </Typography>
+        <a href="/" className="mr-4 ml-2 cursor-pointer py-1.5">
+          <img
+            src="https://www.pngall.com/wp-content/uploads/13/Adobe-Logo-PNG-Picture.png"
+            alt="Adobe Logo"
+            className="h-8 w-auto"
+          />
+        </a>
         <div className="hidden lg:flex ml-auto">
           <NavList />
         </div>

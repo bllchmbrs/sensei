@@ -1,25 +1,24 @@
-import React from "react";
 import {
-  Navbar,
-  Collapse,
-  Typography,
-  Button,
-  IconButton,
-  List,
-  ListItem,
-  Menu,
-  MenuHandler,
-  MenuList,
-  MenuItem,
-} from "@material-tailwind/react";
-import {
-  ChevronDownIcon,
-  UserCircleIcon,
-  CubeTransparentIcon,
-  Bars3Icon,
-  XMarkIcon,
-  Square3Stack3DIcon,
+    Bars3Icon,
+    ChevronDownIcon,
+    CubeTransparentIcon,
+    Square3Stack3DIcon,
+    XMarkIcon
 } from "@heroicons/react/24/outline";
+import {
+    Button,
+    Collapse,
+    IconButton,
+    List,
+    ListItem,
+    Menu,
+    MenuHandler,
+    MenuItem,
+    MenuList,
+    Navbar,
+    Typography,
+} from "@material-tailwind/react";
+import React from "react";
 
 import ThemeProvider from "./theme-provider";
 
@@ -210,14 +209,13 @@ export default function Example() {
     <ThemeProvider>
       <Navbar className="absolute mx-auto left-0 right-0 top-3 max-w-screen-xl px-4 py-2 z-10">
         <div className="flex items-center justify-between text-blue-gray-900">
-          <Typography
-            as="a"
-            href="/astro-launch-ui/"
-            variant="h6"
-            className="mr-4 cursor-pointer py-1.5 lg:ml-2"
-          >
-            AstroLaunch UI
-          </Typography>
+          <a href="/astro-launch-ui/" className="mr-4 cursor-pointer py-1.5 lg:ml-2">
+            <img
+              src="https://www.pngall.com/wp-content/uploads/13/Adobe-Logo-PNG-Picture.png"
+              alt="Adobe Logo"
+              className="h-8 w-auto"
+            />
+          </a>
           <div className="hidden lg:block">
             <NavList />
           </div>
