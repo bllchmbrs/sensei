@@ -318,13 +318,16 @@ export default function ComplexNavbar() {
       }`}
     >
       <div className="relative mx-auto flex items-center text-blue-gray-900">
-        <Typography
-          as="a"
+        <a
           href="/"
-          className="mr-4 ml-2 cursor-pointer py-1.5 font-medium"
+          className="mr-4 ml-2 cursor-pointer py-1.5 flex items-center"
         >
-          AstroLaunch UI
-        </Typography>
+          <img
+            src="/adobe-logo.png"
+            alt="Adobe Logo"
+            className="h-8 w-auto sm:h-10 lg:h-12 object-contain"
+          />
+        </a>
         <div className="hidden lg:flex ml-auto">
           <NavList />
         </div>
