@@ -1,12 +1,12 @@
 import { Typography } from "@material-tailwind/react";
 
 const logos = [
-  "photoshop",
-  "illustrator",
-  "premiere",
-  "acrobat",
-  "firefly",
-  "express",
+  "amazon",
+  "microsoft", 
+  "ibm",
+  "salesforce",
+  "cisco",
+  "vodafone",
 ];
 
 export function LogoSectionOne() {
@@ -17,15 +17,15 @@ export function LogoSectionOne() {
           color="blue-gray"
           className="text-xl font-extrabold mb-8"
         >
-          Powered by Adobe Creative Cloud
+          Trusted by Leading Companies
         </Typography>
         <div className="flex flex-wrap items-center justify-center gap-8">
           {logos.map((logo, key) => (
             <img
               key={key}
               src={`logos/logo-${logo}.svg`}
-              alt="logo"
-              className="w-40"
+              alt={`${logo} logo`}
+              className="w-40 h-auto opacity-70 hover:opacity-100 transition-opacity"
             />
           ))}
         </div>
