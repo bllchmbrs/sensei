@@ -1,0 +1,12 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+Use the GitHub issues list function to list any open issues on the GitHub repository bllchmbrs/sensei. If the item is a pull request, please ignore it, we ONLY want to look at issues, not pull requests.
+
+When you find an open issue, you please list the comments on that issue.
+
+After that, you must create a fix specification for each 'problem' (note, there may be more than one problem per issue for example a comment might call out a particular issue). 
+
+This problem description(s) must be complete and most not require referring to the specific issue to get more information.

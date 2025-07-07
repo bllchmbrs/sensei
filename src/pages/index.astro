@@ -1,0 +1,32 @@
+---
+import AstroPresentation from "../components/presentation/astro";
+import CodePresentation from "../components/presentation/code";
+import DevFreePresentation from "../components/presentation/developerFree";
+import FeaturePresentation from "../components/presentation/feature";
+import FooterFreePresentation from "../components/presentation/footerFree";
+import FreeToProPresentation from "../components/presentation/freeToPro";
+import GithubPresentation from "../components/presentation/github";
+import HeaderPresentation from "../components/presentation/header";
+import LogosPresentation from "../components/presentation/logos";
+import PagesFreePresentation from "../components/presentation/pagesFree";
+import PalettePresentationFree from "../components/presentation/palette";
+import PricingPresentation from "../components/presentation/pricing";
+import Layout from "../layouts/Layout.astro";
+---
+
+<Layout title="Adobe Sensei Studio - AI for Creatives">
+  <main>
+    <HeaderPresentation client:only="react" />
+    <FeaturePresentation client:only="react" />
+    <LogosPresentation client:only="react" />
+    <DevFreePresentation client:only="react" />
+    <PalettePresentationFree client:only="react" />
+    <CodePresentation client:only="react" />
+    <FreeToProPresentation client:only="react" />
+    <AstroPresentation client:only="react" />
+    <PagesFreePresentation client:only="react" />
+    <PricingPresentation client:only="react" />
+    <GithubPresentation client:only="react" />
+    <FooterFreePresentation client:only="react" />
+  </main>
+</Layout>
