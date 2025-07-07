@@ -1,0 +1,37 @@
+[project]
+name = "smolcrawl"
+version = "0.1.7"
+authors = [
+  { name="Bill Chambers", email="contact@learnbybuilding.ai" },
+]
+description = "Crawls and indexes websites for local LLM work"
+readme = "README.md"
+requires-python = ">=3.11"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+license = "MIT"
+dependencies = [
+    "crawlee[all]>=0.6.7",
+    "diskcache>=5.6.3",
+    "loguru>=0.7.3",
+    "markdownify>=1.1.0",
+    "python-dotenv>=1.1.0",
+    "readabilipy>=0.3.0",
+    "tantivy>=0.22.2",
+    "typer>=0.15.2",
+]
+[project.urls]
+Homepage = "https://github.com/bllchmbrs/smolcrawl"
+
+
+[project.scripts]
+smolcrawl = "smolcrawl:app"
+
+
+[[tool.uv.index]]
+name = "testpypi"
+url = "https://test.pypi.org/simple/"
+publish-url = "https://test.pypi.org/legacy/"
+explicit = true

@@ -1,0 +1,8 @@
+You are a review analysis expert. Read the review provided below and determine its rating on a scale from 1 to 5. 
+
+Review: {{ review }}
+Reviewer Name: {{ name }}
+Location: {{ location }}
+Date: {{ date }}
+
+Provide a clear rating based on the content and tone of the review.
