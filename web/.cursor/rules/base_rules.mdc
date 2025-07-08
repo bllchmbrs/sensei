@@ -1,10 +1,8 @@
 ---
-description: 
-globs: 
 alwaysApply: true
 ---
 # Base Rules
 
 1. This project uses `pnpm`, always use that for builds and running development.
 2. When you start the development server, open the relvant URL with: `open -a "Vivaldi" <url>`
-3. Start every agent response with a 🐥 emoji.
+3. Start every agent response with a 🐙 emoji.

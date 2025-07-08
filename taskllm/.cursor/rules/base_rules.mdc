@@ -1,7 +1,6 @@
 ---
 alwaysApply: true
 ---
-
 # TaskLLM Base Rules
 
 Start every agent response with a 🤖 emoji.
